@@ -1,0 +1,41 @@
+{
+  "sources": [
+    {
+      "name": "awesome-ai-video-prompts",
+      "url": "https://github.com/geekjourneyx/awesome-ai-video-prompts",
+      "use": "General AI video prompt structure, cinematic language, category ideas."
+    },
+    {
+      "name": "AI-Video-Prompt",
+      "url": "https://github.com/Lcorinst/AI-Video-Prompt",
+      "use": "Template categories and style parameter organization."
+    },
+    {
+      "name": "awesome-ltx2",
+      "url": "https://github.com/wildminder/awesome-ltx2",
+      "use": "LTX model and workflow references."
+    },
+    {
+      "name": "VantageLongWanVideo",
+      "url": "https://github.com/vantagewithai/VantageLongWanVideo",
+      "use": "Wan long-form prompt project management ideas."
+    },
+    {
+      "name": "sora-prompt-zh",
+      "url": "https://github.com/SoraEase/sora-prompt-zh",
+      "use": "Chinese scene description style and general example inspiration."
+    },
+    {
+      "name": "Veo-3-Prompting-Guide",
+      "url": "https://github.com/snubroot/Veo-3-Prompting-Guide",
+      "use": "Structured video prompt components and cinematography vocabulary."
+    }
+  ],
+  "policy": [
+    "Do not copy long source prompts verbatim.",
+    "Use sources as inspiration for original prompt templates.",
+    "Avoid fake testimonials, regulated claims, direct content theft, and celebrity/IP misuse.",
+    "Optimize prompts for local Wan2GP and LTX Desktop constraints."
+  ]
+}
+

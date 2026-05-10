@@ -1,0 +1,103 @@
+{
+  "name": "starter-prompts",
+  "version": "0.1.0",
+  "created_for": "Wan2GP and LTX Desktop on local RTX 3090",
+  "notes": [
+    "Prompts are original adaptations for local video generation.",
+    "Use Wan2GP for batch testing and LTX Desktop for selected hero shots.",
+    "Replace bracketed placeholders before generation."
+  ],
+  "negative_prompts": {
+    "general": "no subtitles, no on-screen text, no watermark, no logo, no flickering, no duplicated subject, no abrupt scene cut, no low quality",
+    "product": "keep the product shape consistent, no fake text, no distorted packaging, no melted edges, no broken geometry",
+    "people": "natural face, natural hands, no extra fingers, no extra limbs, no deformed face, no duplicated person",
+    "vertical": "vertical composition, subject centered, mobile-friendly framing, strong first frame, clean background"
+  },
+  "packs": [
+    {
+      "id": "product_desk_premium",
+      "category": "product_ad",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A cinematic close-up of [PRODUCT] on a clean wooden desk, morning sunlight through blinds, [PRODUCT ACTION OR FEATURE] clearly visible, camera slowly pushes in, shallow depth of field, realistic reflections, premium product commercial style, no text, no watermark."
+    },
+    {
+      "id": "product_lifestyle_ltx",
+      "category": "product_ad",
+      "best_model": "LTX Desktop",
+      "duration_target": "5-10s",
+      "prompt": "A premium lifestyle product video set on a clean wooden desk in a sunlit home office. [PRODUCT] is placed beside a laptop and notebook, and [PRODUCT ACTION OR FEATURE] becomes clearly visible as the camera slowly pushes into a close-up. Warm morning light passes through window blinds, creating soft shadows and realistic reflections. The mood is calm, focused, and professional. No subtitles, no on-screen text, no watermark, keep the product shape consistent."
+    },
+    {
+      "id": "kitchen_ugc_demo",
+      "category": "ugc",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A realistic handheld vertical video of [KITCHEN PRODUCT] being used on a bright kitchen counter, [SIMPLE DEMO ACTION], natural morning light, authentic social media UGC style, clean background, no subtitles, no watermark, no distorted hands."
+    },
+    {
+      "id": "beauty_product_closeup",
+      "category": "beauty",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A soft beauty commercial close-up of [BEAUTY PRODUCT] on a bathroom vanity, gentle hand interaction, glossy reflections, soft diffused light, clean pastel background, elegant premium style, no text, no watermark, no distorted hands."
+    },
+    {
+      "id": "before_after_transformation",
+      "category": "hook",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A split-style cinematic scene showing a messy [PROBLEM SETTING] transforming into a clean organized [RESULT SETTING], [PRODUCT OR SOLUTION] visible in the center, camera slowly moves from left to right, bright clean lighting, satisfying before-and-after style, no text, no watermark."
+    },
+    {
+      "id": "neon_city_broll",
+      "category": "cinematic",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A cinematic night shot of [SUBJECT] walking through a neon-lit rainy street, reflections on wet asphalt, camera follows from behind with smooth handheld motion, moody urban atmosphere, realistic lighting, shallow depth of field, no text, no watermark."
+    },
+    {
+      "id": "cozy_indoor_scene",
+      "category": "cinematic",
+      "best_model": "LTX Desktop",
+      "duration_target": "5-10s",
+      "prompt": "A cozy cinematic shot of [SUBJECT] in a warm apartment at night. Soft lamp light fills the room, gentle background motion creates a lived-in feeling, and the camera slowly pushes in from a medium shot to a close-up. The atmosphere is intimate and calm with filmic color grading. No subtitles, no text, no watermark."
+    },
+    {
+      "id": "educational_visual_metaphor",
+      "category": "education",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A clean cinematic visual metaphor for [CONCEPT], represented by [OBJECTS OR MOTION], smooth camera movement, minimal studio background, soft light, modern educational video style, clear composition, no text, no watermark."
+    },
+    {
+      "id": "food_macro",
+      "category": "food",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A close-up food commercial shot of [FOOD] on a ceramic plate, [SAUCE OR STEAM ACTION], camera slowly moves closer, warm soft light, appetizing texture, shallow depth of field, no text, no watermark."
+    },
+    {
+      "id": "miniature_world_hook",
+      "category": "hook",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A macro cinematic shot of a tiny [MINIATURE SCENE] built on top of [EVERYDAY OBJECT], small figures moving slowly, camera glides close to the surface, shallow depth of field, whimsical realistic style, no text, no watermark."
+    },
+    {
+      "id": "short_drama_scene_1",
+      "category": "story",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A cinematic establishing shot of [CHARACTER] entering [LOCATION], wearing [CONSISTENT OUTFIT], [MOOD OR PROBLEM] visible in body language, camera slowly tracks forward, natural lighting, realistic short film style, no subtitles, no text, no watermark."
+    },
+    {
+      "id": "short_drama_scene_2",
+      "category": "story",
+      "best_model": "Wan2GP Wan2.2 14B",
+      "duration_target": "3-6s",
+      "prompt": "A medium close-up of the same [CHARACTER] wearing [CONSISTENT OUTFIT], noticing [PROBLEM OBJECT OR EVENT], subtle facial reaction, camera slowly pushes in, same location and lighting, realistic acting, no subtitles, no text, no watermark."
+    }
+  ]
+}
+
