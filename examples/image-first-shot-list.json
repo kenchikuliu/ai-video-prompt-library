@@ -1,0 +1,29 @@
+[
+  {
+    "id": "shot_01",
+    "title": "Premium mug hero",
+    "duration_seconds": 5,
+    "image_prompt": "16:9 landscape product-video storyboard frame. Main subject: a matte black insulated coffee mug on a walnut desk. Composition: mug centered slightly right, warm morning window light from the left, clean negative space on the left for later caption text, shallow depth of field, subtle steam visible above the lid. Motion intent for later video: camera slowly pushes in while steam rises. Realistic premium product commercial frame. No subtitles, no watermark, no random logos, no long readable text.",
+    "video_prompt": "Starting from the provided storyboard image, the camera slowly pushes in while warm steam rises from the mug, subtle highlights move across the matte surface, preserve the product shape, desk, lighting, and clean background from the image, premium product commercial motion, no subtitles, no text, no watermark.",
+    "negative_prompt": "subtitles, on-screen text, watermark, logo, distorted packaging, melted edges, flickering, low quality",
+    "seed": 260101
+  },
+  {
+    "id": "shot_02",
+    "title": "Kitchen slicer UGC",
+    "duration_seconds": 5,
+    "image_prompt": "16:9 landscape storyboard frame for a realistic social media UGC product demo. Main subject: natural hands holding a compact kitchen slicer above a bright kitchen counter with a cucumber ready to slice. Composition: product and hands in the center, clean counter, soft morning daylight, lived-in but tidy background, negative space along the top for later caption. Motion intent for later video: one smooth cucumber slice. No subtitles, no watermark, no extra fingers, no distorted hands, no random logos, no long readable text.",
+    "video_prompt": "Starting from the provided storyboard image, the hands perform one smooth cucumber slice with the compact slicer, subtle natural handheld camera movement, preserve the kitchen layout and product appearance from the image, authentic social media UGC motion, no subtitles, no watermark, no distorted hands, no extra fingers.",
+    "negative_prompt": "subtitles, on-screen text, watermark, logo, distorted hands, extra fingers, deformed face, flickering, low quality",
+    "seed": 260102
+  },
+  {
+    "id": "shot_03",
+    "title": "Neon rain b-roll",
+    "duration_seconds": 5,
+    "image_prompt": "16:9 landscape cinematic storyboard frame. Main subject: a person in a long dark coat walking away through a neon-lit rainy street. Composition: subject centered in the lower third, wet asphalt reflections leading toward the background, blue and magenta neon signs blurred in distance, no readable sign text, moody atmosphere. Motion intent for later video: camera follows from behind as rain falls. No subtitles, no watermark, no random readable text.",
+    "video_prompt": "Starting from the provided storyboard image, the person walks forward through light rain while neon reflections ripple on the wet asphalt, camera follows smoothly from behind, preserve the moody lighting and street composition from the image, cinematic realistic motion, no subtitles, no text, no watermark.",
+    "negative_prompt": "subtitles, on-screen text, watermark, logo, deformed face, extra limbs, flickering, duplicate person, low quality",
+    "seed": 260103
+  }
+]
